@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Hub Spot Test Sanity Suite]">
+  <listeners>
+    <listener class-name="com.hubspot.listeners.ExtentReportListener"/>
+    <listener class-name="com.hubspot.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="hub spot Sanity Test(failed)">
+    <classes>
+      <class name="com.hubspot.tests.LoginTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hubspot.tests.LoginTest -->
+    </classes>
+  </test> <!-- hub spot Sanity Test(failed) -->
+</suite> <!-- Failed suite [Hub Spot Test Sanity Suite] -->

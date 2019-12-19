@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.945 s <<< FAILURE! - in TestSuite
+loginPageTitleTest(com.hubspot.tests.LoginTest)  Time elapsed: 0.042 s  <<< FAILURE!
+java.lang.AssertionError: HubSpot Login expected:<HubSpot Login> but was:<title is in correct...>
+	at com.hubspot.tests.LoginTest.loginPageTitleTest(LoginTest.java:60)
+
